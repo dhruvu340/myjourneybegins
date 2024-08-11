@@ -17,7 +17,7 @@
 
 function sum(num1, num2,fntocall) {
     let result = num1 + num2;
-    return displayResult(result);
+    return fntocall(result);
 }
 
 function displayResult(data) {
@@ -29,3 +29,12 @@ function displayResultPassive(data) {
 }
 
 console.log(sum(1,2,displayResult))
+
+function greet (){
+    console.log("hello")
+}
+setTimeout(greet,4000) 
+
+
+
+
