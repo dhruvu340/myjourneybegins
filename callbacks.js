@@ -35,6 +35,8 @@ function greet (){
 }
 setTimeout(greet,4000) 
 
+setInterval(greet,4000)
+
 
 
 
